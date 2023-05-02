@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+/*Importação da fonte Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.header {
+    background-color: #7c4032;
+}
+
+.header__fundo-oval {
+    height: 47vw;
+    width: 100%;
+    border-radius: 0% 50% 0% 100% / 0% 10% 0% 15%;
+    background-color: #fef4de;
+    background-image: url(img/Fundo-1.png);
+    background-size: 90%;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__texto {
+    text-align: justify;
+    color: #7c4032;
+    width: 445px;
+    height: 300px;
+}
+
+.header__logo--titulo {
+    font-family: 'Poppins';
+    font-size: 90px;
+    font-weight: bold;
+    height: 90px;
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__logo--subtitulo {
+    font-size: 40px;
+    letter-spacing: 20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botao__distancia {
+    gap: 50px;
+}
+
+.botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #7c4032;
+    font-size: 15px;
+    font-weight: 900;
+    height: 56px;
+    width: 170px;
+    border-radius: 61px;
+    border: 3px solid #7c4032;
+    transition: all .3s;
+}
+
+.botao__amarelo {
+    background-color: #F3CE5E;
+    box-shadow: 0px 20px 40px rgba(243, 206, 94, 0.2);
+    border: 0px;
+    margin: 30px;
+}
+
+.botao__amarelo:hover {
+    background-color: #7c4032;
+    color: #F3CE5E;
+    cursor: pointer;
+}
+
