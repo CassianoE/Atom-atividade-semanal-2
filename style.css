@@ -198,6 +198,132 @@ line-height: 96px
     border: 1px solid #7c4032;
 }
 
+/*Essa estilização refere-se a barra do rodapé*/
+
+.rodape {
+    padding-top: 2%;
+    height: 50px;
+    right: 10px;
+    left: 10px;
+    background-color: #55352D;
+}
+
+.textos {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
+    color: grey;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 35px;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.urso {
+    width: 400px;
+}
+
+.pagina__contatos {
+    background-color: white;
+    text-align: center;
+}
+
+.pagina__contatos h2 {
+    background-color: white;
+    text-align: center;
+    color: #7C4032;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 96px;
+
+}
+
+
+.address {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 80px;
+}
+
+.botao__organizacao {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+
+.botoes__input {
+    background-color: #e6af99;
+    margin: 2px;
+    margin-top: 10px;
+    border: 5px;
+    height: 56px;
+    width: 374px;
+    border-radius: 61px;
+}
+
+.botao {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #7c4032;
+    font-size: 15px;
+    font-weight: 900;
+    height: 56px;
+    width: 170px;
+    border-radius: 61px;
+    border: 3px solid #7c4032;
+    transition: all .3s;
+}
+
+.botao__enviar {
+    margin: 10px;
+}
+
+.alinhamento {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    width: 3px;
+    height: 40px;
+    left: 30px;
+}
+
+.imagem {
+    margin: 20px;
+    width: 20px;
+}
+
+.textos {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
+    color: grey;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 35px;
+    margin: 5px;
+    margin-top: 30px;
+}
 
 
 
