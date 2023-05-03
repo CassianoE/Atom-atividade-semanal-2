@@ -99,6 +99,11 @@ body{
 .titulo {
     text-align: center;
     color: white;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 96px
 }
 
 .main__service {
@@ -131,4 +136,72 @@ body{
     background-color: rgba(243, 206, 94, 1);
     color: white;
 }
+
+.centralizar {
+    text-align: center;
+}
+
+.estilo__texto {
+    text-align: justify;
+    font-size: 10px;
+}
+
+.estilo__texto--titulo {
+    color: #7c4032;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.estilo__da-pagina {
+    margin: 0px;
+    background-color: #FEF4DE;
+    background-image: url('../img/Fundo-1.png');
+    background-size: 90%;
+    background-repeat: repeat;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.estilo__texto--margem {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.estilo__testymonials {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+
+.centralizar h2 {
+    width: 422px;
+    height: 96px;
+    left: 749px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 96px;
+    display: inline;
+    text-align: center;
+    color: #7c4032;
+}
+
+
+.retangulo {
+    margin: 20px;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border: 1px solid #7c4032;
+}
+
+
+
+
+
+
+
 
